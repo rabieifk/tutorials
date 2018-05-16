@@ -41,7 +41,7 @@ func Top(
 
 	// Add the two input integers together
 	// YOUR CODE: Perform the addition here using the Add function
-	val := add(inputData1,inputData2)
+	val := Add(a, b)
 
 	// Write the result of the addition to the shared memory address provided by the host
 	aximemory.WriteUInt32(
